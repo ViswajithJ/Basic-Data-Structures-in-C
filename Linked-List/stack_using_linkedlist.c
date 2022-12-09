@@ -29,6 +29,7 @@ void display() {
 
 void push() {
 	struct node *temp = (struct node *) malloc(sizeof(struct node));
+	//create a temp node, and input data to it, then insert temp node as the first node
 	printf("Enter the element to be pushed to the stack: ");
 	scanf("%d", &temp->data);
 	temp->link = top; 
@@ -48,7 +49,7 @@ void pop() {
 		printf("Deleted element : %d\n", data);
 		top = ptr->link; 
 		ptr->link = NULL; 
-		free(ptr);
+		free(ptr);        //deallocates the memory address that was allocated to ptr.
 	}
 	display();
 }
