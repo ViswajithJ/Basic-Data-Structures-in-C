@@ -1,6 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* 
+Implementation of Stack using linked list
+
+A linked list, with operations restricted to insert at front, and delete at front, act as a Stack.
+Here, top points to the first node at all times.
+ 
+*/
+
+
 //Define the structure for node
 struct node {
 	int data;
@@ -57,7 +66,7 @@ void pop() {
 int main() {
 	int optionNum;
 
-	printf("Stack Implementation using Linked List.\n\n");
+	printf("\t\tStack Implementation using Linked List.\n\n");
 	do {
 	 	printf("Available operations:- \n");
 		printf("\n1. Push an element into the stack.\n");

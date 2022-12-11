@@ -81,7 +81,7 @@ void dequeue() {
 int main() {
 	int optionNum;
 
-	printf("Queue Implementation using Linked List.\n\n");
+	printf("\t\tQueue Implementation using Linked List.\n\n");
 	do {
 	 	printf("Available operations:- \n");
 		printf("\n1. Insert an element into the queue.\n");
