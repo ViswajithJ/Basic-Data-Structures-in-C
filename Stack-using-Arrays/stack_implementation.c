@@ -15,6 +15,8 @@ Eg:-
 
   if you have to access 6, you have to take 4 out, then take 5 out, and then only access the 6.
 
+[+] LIFO data structure - Last in - First out
+
 [+] There's only one pointer, top, which always points to the top most element.
     You can only access the element at the top, at any time.
 
